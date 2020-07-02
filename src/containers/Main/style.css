@@ -1,0 +1,92 @@
+.products{
+  background-color: #f9f9f9;
+  background-size: cover;
+  margin-top: 10%;
+}
+
+.products__header{
+  padding: 5% 6% 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #bbb4b4;
+}
+
+.products__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+  
+.products__card{
+  width: 50%;
+  padding: 3% 1%;
+  text-align: center;
+}
+  
+.products_card--header{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: #fff;
+  font-size: 0.9rem; 
+  text-align: center;
+}
+    
+.products__card--discount{
+  position: absolute;
+  background-color: #423d3d;
+  z-index: 2;
+}
+
+.products__card--img{
+  position: relative;
+  width: 100%;
+}
+  
+.products__card--main{
+  text-align: center;
+  padding: 3%;
+}
+  
+.products__card--name{
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+} 
+  
+.products__card--regularPrice{
+  height: 10px;
+  font-size: 0.7rem;
+  color: rgb(165, 173, 180);
+  text-decoration: line-through;
+  padding: 0 2% 3% 
+}
+  
+.products__card--actualPrice{
+  font-size: 0.9rem;
+}
+
+
+
+@media (min-width: 982px){
+  .products{
+    margin-top: 0;
+  }
+
+  .products__container{
+    padding-top: 2%
+  }
+
+  .products__header{
+    padding: 2% 6% 0;
+  
+  }
+  
+  .products__card{
+    width: 25%;
+    padding: 0.3% 0.4%;
+  }
+}

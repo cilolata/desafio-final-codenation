@@ -1,0 +1,71 @@
+  .modal__main{
+      width: 100%;
+      margin-top: 35%;
+    }
+
+  .card__container{  
+    border-bottom: 1px solid rgb(217, 222, 226);
+    box-shadow: 0 0.2rem 1rem 0 rgb(236, 238, 240);
+    padding: 1%;
+  
+  }
+
+  .card__main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding: 1%;
+
+  }
+
+  .card__image{
+    width: 20%;
+    margin:0;
+  }
+
+  .card__image{
+    width: 50%;
+  }
+
+  .card__details{
+    width: 50%;
+  }
+
+ 
+  .card__price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .card__paragraph--installments{
+    font-size: 0.9rem;
+    color:  rgb(165, 173, 180);
+    font-weight: 700;
+  }
+ 
+
+
+  @media (min-width: 1200px){
+    .modal__main{
+      width: 90%;
+      margin-top: 15%;
+    }
+  
+
+    .card__container{
+      margin: 0; 
+      padding: 0;  
+    }
+
+    .card__image{
+      width: 30%;
+    }
+
+    .card__details{
+      width: 10%;
+    }
+  }
+
+ 
+

@@ -1,0 +1,116 @@
+  .modal__main--bag{
+    width: 100%;
+    height: 100vh;
+    padding: 5%;
+    overflow-y: auto;
+  }
+  
+  .card__bag--container{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(217, 222, 226);
+    box-shadow: 0 0.2rem 1rem 0 rgb(236, 238, 240);
+    margin: 15% 3% 0;
+    padding: 1%;
+  
+  }
+
+  .card__imagem{
+    width: 30%;
+    margin:0;
+  }
+
+  .card__bag--image{
+    width: 85%;
+    padding-bottom: 3%;
+  }
+
+  .card__bag--details{
+    width: 30%;
+  }
+
+  .card__bag--length{
+    display: flex;
+    align-items: initial;
+
+  }
+
+  .bag__details--icons{
+    font-size: 2rem;
+    padding-top: 3%;
+  }
+
+  .bag__details--length{
+    font-size: 1.6rem;
+    margin: 0 2%;
+  }
+
+  .main__bag--button{
+    width: 55%;
+    height: 5vh;
+  }
+
+  .card__price{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .card__paragraph--installments{
+    font-size: 0.9rem;
+    color:  rgb(165, 173, 180);
+    font-weight: 700;
+  }
+ 
+
+  .bag__delete{
+    font-size: 1.5rem;
+    margin-top: 30%;
+    color: #cf3838;
+  }
+
+
+  @media (min-width: 1200px){
+    .card__bag--container{
+      padding: 1%;
+    }
+    .modal__main--bag{
+      height: 85vh;
+      margin-top: 2%;
+      padding: 0;
+    }
+
+    .card__bag--container:first-child{
+      padding-top: 0;
+      margin-top: 4%;
+
+    }
+
+    .card__bag--container{
+      width: 40%;
+      margin: 0;   
+      padding-top: 2%;
+    }
+
+    .card__imagem{
+      width: 30%;
+      padding: 1%;
+    }
+
+  
+    .card__bag--image{
+      width: 95%;
+    }
+
+    .card__bag--details{
+      width: 30%;
+    }
+
+    .card__price{
+      width: 20%;
+    }
+  }
+
+ 
+

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+html, boddy, input, button{
+  font-family: 'Noto Sans', sans-serif;
+  color: #2c2b2b;
+  width: 100%;
+  font-size: 15px;
+
+}
